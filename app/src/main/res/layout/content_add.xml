@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/contentPicture"
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:visibility="gone"/>
+    <VideoView
+        android:id="@+id/contentVideo"
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:visibility="gone"/>
+    <EditText
+        android:id="@+id/editText"
+        android:hint="XiDianNote"
+        android:gravity="top"
+        android:background="@null"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/save"
+            android:text="save"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/cancel"
+            android:text="cancel"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
